@@ -4,8 +4,10 @@
 }
 
 #octocat {
+  float: left;
+  position: relative;
   display: block;
-  width:384px;
+  width:128px;
   margin: 50px auto;
 }
 
@@ -14,4 +16,52 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+#menu {
+  height: 50px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 25px;
+}
+
+menu {
+  position: relative;
+}
+
+li {
+  display: inline;
+  font: 15px;
+  text-align: justify;
+  margin-left: 10em;
+}
+
+#home {
+  margin-left: 0em;
+  text-align: left;
+}
+
+#contacts {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:hover {
+  color: #290
+}
+
+a:active {
+  color: #100;
+}
+
+a:visited {
+  color: #fff;
 }
