@@ -1,67 +1,74 @@
 * {
-  margin:0px;
-  padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #octocat {
-  float: left;
-  position: relative;
-  display: block;
-  width:128px;
-  margin: 50px auto;
+    position: fixed;
+    display: inline-block;
+    width: 32px;
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    display: block;
+    width: 400px;
+    margin: 50px 450px;
+    font: 2em, Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+}
+
+#top {
+    display: block;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
 }
 
 #menu {
-  height: 50px;
-  background-color: black;
-  color: whitesmoke;
-  text-align: center;
-  padding-top: 25px;
-}
-
-menu {
-  position: relative;
-}
-
-li {
-  display: inline;
-  font: 15px;
-  text-align: justify;
-  margin-left: 10em;
+    display: block;
+    position: relative;
+    left: 400px;
 }
 
 #home {
-  margin-left: 0em;
-  text-align: left;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#about {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#gallery {
+    display: inline-block;
+    padding: 0px 10px;
 }
 
 #contacts {
-  text-align: right;
+    display: inline-block;
+    padding: 0px 10px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:link {
-  color: #fff;
+    color: #fff;
 }
 
 a:hover {
-  color: #290
+    color: #290
 }
 
 a:active {
-  color: #100;
+    color: #100;
 }
 
 a:visited {
-  color: #fff;
+    color: #fff;
 }
